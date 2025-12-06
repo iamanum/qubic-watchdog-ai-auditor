@@ -115,7 +115,7 @@ export default async function Dashboard() {
         <div className="space-y-3 max-h-96 overflow-y-auto pr-2">
           {DUMMY_FEED.map((item, index) => (
             <div key={index} className={`flex items-start p-3 bg-gray-800 rounded-lg shadow-md border-l-4 ${item.color.replace('text', 'border')}`}>
-              <span className={`${item.color} font-bold mr-3 flex-shrink-0 text-sm`}>[{item.alert}]</span>
+              <span className={`${item.color} font-bold mr-3 shrink-0 text-sm`}>[{item.alert}]</span>
               <div>
                 <p className={`text-white text-sm ${item.alert === 'Red Alert' ? 'font-semibold' : ''}`}>{item.text}</p>
                 <p className="text-gray-400 text-xs mt-0.5">{item.time}</p>
