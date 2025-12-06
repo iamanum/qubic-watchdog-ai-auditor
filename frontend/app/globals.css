@@ -1,7 +1,5 @@
-/* FINAL FIX: Standard Tailwind directives */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* FINAL FIX: Tailwind v4 Import */
+@import "tailwindcss";
 
 /* Base styles */
 body {
