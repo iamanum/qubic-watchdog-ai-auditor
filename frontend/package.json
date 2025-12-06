@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NEXT_WEBPACK_COMPILER=swc next dev",
-"build": "node_options=\"\" next build",
-    "lint": "eslint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "lint": "eslint"
+},
+
   "dependencies": {
     "@supabase/supabase-js": "^2.86.2",
     "@types/react": "^18.3.27",
