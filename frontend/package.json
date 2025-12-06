@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NEXT_WEBPACK_COMPILER=swc next dev",
-"build": "cross-env NODE_OPTIONS=--no-warnings NEXT_WEBPACK_COMPILER=swc next build",
-    "start": "next start",
+"build": "next build",
     "lint": "eslint"
   },
   "dependencies": {
